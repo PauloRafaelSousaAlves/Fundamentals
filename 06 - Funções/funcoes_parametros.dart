@@ -33,6 +33,7 @@ funcaoParametros() {
   print('');
 
   //Função como parametro nomeado
+  //aqui pegamos outra função e passamos como parametro, veja o exemplo:
 
   print('06.3.3 - Função com parametros para outras funções');
   print('');
