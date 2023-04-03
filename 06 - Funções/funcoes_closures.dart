@@ -80,6 +80,12 @@ funcaoClosures() {
   for (var objeto in listaObjetos) {
     print(objeto.substring(7));
   }
+  print('');
+  ///For in utilizado para a opção de MAP
+  
+  // for (var objeto in listaObjetos) {
+  //   print((objeto.descricao is num) ? descontarVinte(objeto.descricao) : objeto.descricao);
+  // }
 }
 
 //uma classe para retornar um objeto
