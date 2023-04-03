@@ -4,10 +4,10 @@ void main() {
 
   //um loop no qual conseguimos manipular o indice manualmente
 
-//dentro do For passamos 3 parametros:
-// 1 - estamos definindo o valor do indice
-// 2 - fazer uma comparação com o indice
-// 3 - vamos decrementar ou incrementar o indice
+  //dentro do For passamos 3 parametros:
+  // 1 - estamos definindo o valor do indice
+  // 2 - fazer uma comparação com o indice
+  // 3 - vamos decrementar ou incrementar o indice
   for (var i = 1; i <= 3; i++) {
     print('Contagem: $i');
   }
