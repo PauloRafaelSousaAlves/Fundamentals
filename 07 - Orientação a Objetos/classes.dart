@@ -39,7 +39,11 @@ void main() {
   conta.calcularSalario(950.00, 150.00, 2);
   conta.depositar(185.00);
   conta.sacar(50);
+
+  ///EXEMPLO DE OPERADOR EM CASCATA
+  var pessoa3 = Pessoa();
+  pessoa3
+    ..nome = 'Paulo'
+    ..idade = 56
+    ..info();
 }
-
-
-
