@@ -3,6 +3,7 @@ void main() {
   print('');
 
   //O ternario nada mais é que um if / else, porem feito para fazer verificações mais rapidas
+  //Assim como o if / else o ternário faz um teste lógico boleano verdadeiro ou falso mas com uma sintaxe reduzida!
 
   //EXEMPLO:
 
