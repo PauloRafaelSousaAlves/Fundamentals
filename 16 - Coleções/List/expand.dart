@@ -1,6 +1,6 @@
 ///
 /// Conceito => List é uma coleção dinamica e ordenada de elementos entre colchetes []
-/// expanded => cria uma nova lista expanddindo ou concatenando novos elementos
+/// expand => cria uma nova lista expandindo ou concatenando novos elementos
 /// - Todo array é um List<?>
 ///
 ///
@@ -9,10 +9,10 @@ void main() {
   print('16.1 - Listas - Expanded');
   print('');
 
-  listExpanded();
+  listExpand();
 }
 
-void listExpanded() {
+void listExpand() {
   //aqui podemos observar que possuimos duas lista dentro de uma
   var lista = [
     [1, 2],
