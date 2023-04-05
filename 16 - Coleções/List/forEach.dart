@@ -1,5 +1,4 @@
 import 'dart:math';
-
 ///
 /// Conceito => List é uma coleção dinamica e ordenada de elementos entre colchetes []
 /// forEach => Aplica a função anonima a cada elemento da nossa coleção
