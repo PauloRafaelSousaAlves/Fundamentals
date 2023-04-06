@@ -6,7 +6,7 @@ import 'dart:collection';
 ///
 
 void main() {
-  print('Coleção Queue');
+  print('16.7.3 -Coleção Queue');
   print('');
 
   queue();
