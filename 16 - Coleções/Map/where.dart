@@ -1,5 +1,5 @@
 ///
-/// Where filtra os elementos da coleção criando uma nova do mesmo tamanho ou menor
+/// Where => filtra os elementos da coleção criando uma nova do mesmo tamanho ou menor
 ///
 
 void main() {

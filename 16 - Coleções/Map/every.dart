@@ -1,5 +1,5 @@
 ///
-/// Every faz o teste em 'todos' elementos com o operador lógico && retornando (true ou false)
+/// Every => faz o teste em 'todos' elementos com o operador lógico && retornando (true ou false)
 ///
 
 void main() {
