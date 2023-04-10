@@ -1,8 +1,8 @@
 import 'dart:async';
 
-///
-/// O temporizador leva dois argumentos, uma duração e uma função para executar.
-/// A duração deve ser instancia da classe Duration.
+/// Conceito:
+///         => O temporizador leva dois argumentos, uma duração e uma função para executar.
+///         => A duração deve ser instancia da classe Duration.
 ///
 
 void main() {
