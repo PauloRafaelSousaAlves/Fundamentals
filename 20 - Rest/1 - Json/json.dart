@@ -103,12 +103,11 @@ void conversaoObjeto() {
   print('Uso do Objeto: idade: ${listaUsuarios.usuarios.elementAt(0).idade}');
 }
 
-
-
 ///EXEMPLO CLASSE DE SERIALIZAÇÃO DO JSON
 class ListaUsuario {
   List<Usuario> usuarios;
 
+  // Construtor default da classe
   ListaUsuario({required this.usuarios});
 
   factory ListaUsuario.fromJson(List<dynamic> json) {
@@ -126,7 +125,10 @@ class Usuario {
   int idade;
   String email;
 
+  // Construtor default da classe
   Usuario({required this.nome, required this.idade, required this.email});
+
+ //Construtor factory retrona uma nova instancia do construtor default da classe a partir de um map
   factory Usuario.fromJson(Map<String, dynamic> json) {
     return Usuario(
       nome: json['nome'],
@@ -137,7 +139,6 @@ class Usuario {
 
   //Transformar o objeto de um Map para JSON
   //Map retornando os atributos
-
   Map<String, dynamic> toJson() {
     return {
       'nome': nome,
