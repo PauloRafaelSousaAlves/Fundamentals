@@ -4,7 +4,7 @@ import 'dart:math';
 /// Conceito:
 ///         => Um gerador de valores aleatórios bool, int ou double.
 void main() {
-  print('20.3.0 - Class Random');
+  print('21.3.0 - Class Random');
   print('');
 
   var random = Random();

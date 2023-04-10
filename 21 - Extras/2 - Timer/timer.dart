@@ -6,7 +6,7 @@ import 'dart:async';
 ///
 
 void main() {
-  print('20.1.0 - Class Timer');
+  print('21.1.0 - Class Timer');
   print('');
 
   print('Compilado as ${tempoAgora()}');

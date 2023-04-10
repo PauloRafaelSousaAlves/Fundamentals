@@ -7,7 +7,7 @@
 // ignore_for_file: dead_code
 
 void main() {
-  print('20.0.0 - Class DateTime');
+  print('21.0.0 - Class DateTime');
   print('');
 
   print('Compilando as ${tempoAgora()}');
